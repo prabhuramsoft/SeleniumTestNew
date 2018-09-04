@@ -26,8 +26,7 @@ public class NewTest2 {
 	public void launchfirefox()
 	{
 		System.setProperty("webdriver.gecko.driver", "C:\\Softwares\\geckodriver-v0.19.1-win64\\geckodriver.exe");
-	    driver=new FirefoxDriver();
-	    driver=new ChromeDriver();
+	        driver=new FirefoxDriver();
 		driver.get("http://newtours.demoaut.com/");
 		driver.manage().window().maximize();
 		
